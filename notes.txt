@@ -1,0 +1,11 @@
+
+
+docker run -p 3000:3000 -v "./workspace:/home/workspace" linuxserver/openvscode-server:1.94.2
+docker run -p 3000:3000 -v "./workspace:/home/workspace" gitpod/openvscode-server:1.94.2
+
+linuxserver/openvscode-server:1.94.2
+gitpod/openvscode-server:1.94.2
+
+cat /etc/os-release
+
+

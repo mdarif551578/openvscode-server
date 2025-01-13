@@ -1,0 +1,20 @@
+2024-11-11 07:22:50.775 [info] 
+
+
+
+
+2024-11-11 07:22:50.793 [info] Extension host agent started.
+2024-11-11 07:22:50.811 [info] Started initializing default profile extensions in extensions installation folder. file:///home/workspace/.openvscode-server/extensions
+2024-11-11 07:22:50.836 [error] [192.168.127.1][ec3604dc][ExtensionHostConnection] Unknown reconnection token (never seen).
+2024-11-11 07:22:50.857 [error] [192.168.127.1][9c1e3d3c][ManagementConnection] Unknown reconnection token (never seen).
+2024-11-11 07:22:50.880 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/workspace/.openvscode-server/extensions
+2024-11-11 07:22:55.426 [info] [192.168.127.1][9d519607][ManagementConnection] New connection established.
+2024-11-11 07:22:55.831 [info] [192.168.127.1][1526dcd8][ExtensionHostConnection] New connection established.
+2024-11-11 07:22:55.937 [info] [192.168.127.1][1526dcd8][ExtensionHostConnection] <30> Launched Extension Host Process.
+2024-11-11 07:26:37.719 [error] [network] #1: https://open-vsx.org/vscode/gallery/extensionquery - error POST getaddrinfo ENOTFOUND open-vsx.org
+2024-11-11 07:26:53.829 [info] [192.168.127.1][9d519607][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-11-11 07:26:55.313 [info] [192.168.127.1][4bbdfc57][ManagementConnection] New connection established.
+2024-11-11 07:26:55.682 [info] [192.168.127.1][e749e5c0][ExtensionHostConnection] New connection established.
+2024-11-11 07:26:55.692 [info] [192.168.127.1][e749e5c0][ExtensionHostConnection] <242> Launched Extension Host Process.
+2024-11-11 07:27:08.852 [error] [network] #2: https://open-vsx.org/vscode/gallery/extensionquery - error POST getaddrinfo ENOTFOUND open-vsx.org
+2024-11-11 07:27:58.377 [info] [192.168.127.1][4bbdfc57][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.

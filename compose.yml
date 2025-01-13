@@ -1,0 +1,34 @@
+services:
+
+  # linuxserver-openvscode-server:
+  #   image: linuxserver/openvscode-server:1.94.2
+  #   container_name: linuxserver-openvscode-server
+  #   ports:
+  #     - "3000:3000"
+  #   volumes:
+  #     - ./workspace:/home/workspace
+  #     - ./vscode-settings/extensions:/home/workspace/.vscode-server/extensions  # Mount the extensions
+  #     - ./vscode-settings/settings/settings.json:/home/workspace/.vscode-server/data/Machine/settings.json  # Mount the settings
+  #   environment:
+  #     - PASSWORD=password
+  #     - USER=ubuntu
+  #     - SUDO_PASSWORD=sudo_password
+  #     - TZ=America/New_York
+  #   restart: unless-stopped
+
+  gitpod-openvscode-server:
+    image: gitpod/openvscode-server:1.94.2
+    container_name: gitpod-openvscode-server
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./workspace:/home/workspace
+      - ./vscode-settings/extensions:/home/workspace/.vscode-server/extensions  # Mount the extensions
+      - ./vscode-settings/settings/settings.json:/home/workspace/.vscode-server/data/Machine/settings.json  # Mount the settings
+    environment:
+      - PASSWORD=password
+      - USER=ubuntu
+      - SUDO_PASSWORD=sudo_password
+      - TZ=America/New_York
+    restart: unless-stopped
+
